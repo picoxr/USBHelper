@@ -5,7 +5,7 @@ This sample code contains common methods for Android USB communication between P
 You need to modify the VID and PID (at line 40 of  USBHelper.java) with your USB device value.
 
 ## Sample code
-```
+```java
 //Initialize usbHelper
 USBHelper usbHelper = USBHelper.getInstance();
 usbHelper.init(this);
