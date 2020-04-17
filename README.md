@@ -1,5 +1,3 @@
-# USBHelper
-
 # USBHelper Description
 
 **Note**: If you want to create your own JAR file, please refer to [the Guideline](http://static.appstore.picovr.com/docs/JarUnity/index.html)      
