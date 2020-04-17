@@ -1,7 +1,8 @@
 # USBHelper Description   
 
 ## Introduction
-This sample code contains common methods for Android USB communication between Pico device and USB slave device. Pico device is acting as USB host to find specified USB slave device with PID & VID. After that, developer can use USB open and data transfer methods.     
+This sample code contains common methods for Android USB communication between Pico device and USB slave device. Pico device is acting as USB host to find specified USB slave device with PID & VID. After that, developer can use USB open and data transfer methods.   
+
 **Note: You need to modify the VID and PID (at line 40 of  USBHelper.java) with your USB device value.**
 
 ## Sample code
