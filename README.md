@@ -6,7 +6,7 @@
 This file contains common methods for Android USB communication between USB host and client, you can invoke them directly in your application.
 
 ## Sample code
-Modify the VID and PID in USBHelper.java to your USB device's VID and PID.
+Modify the VID and PID in USBHelper.java (lines 40&41) to your USB device's VID and PID.
 ```
 //Initialize usbHelper
 USBHelper usbHelper = USBHelper.getInstance();
