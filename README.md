@@ -1,6 +1,6 @@
 # USBHelper Description   
 
-**Note:**
+**Note:**     
 You need to modify the VID and PID (at line 40 of  USBHelper.java) with your USB device value.
 
 ## Introduction
