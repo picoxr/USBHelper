@@ -1,12 +1,10 @@
-# USBHelper Description
-
-**Note**: If you want to create your own JAR file, please refer to [the Guideline](http://static.appstore.picovr.com/docs/JarUnity/index.html)      
+# USBHelper Description   
 
 ## Introduction
-This file contains common methods for Android USB communication between USB host and client, you can invoke them directly in your application.
+This sample code contains common methods for Android USB communication between Pico device and USB slave device . Pico device is acting as USB host to find specified USB slave device with PID & VID.  After that, developer can use usb open and  data transfer methods.
+You need to modify the VID and PID (at line 40 of  USBHelper.java) with your USB device value.
 
 ## Sample code
-Modify the VID and PID in USBHelper.java (lines 40&41) to your USB device's VID and PID.
 ```
 //Initialize usbHelper
 USBHelper usbHelper = USBHelper.getInstance();
